@@ -19,11 +19,11 @@ ssh_client.connect(host, port, username, password)
 scp_client = SCPClient(ssh_client.get_transport(), socket_timeout=15.0)
 
 # 定义本地目录和远程目录
-local_path = "E:/T7/test"
-remote_path = "/mnt/data3/ABCD_2024_0326/qsiPrep"
+local_path = "G:/ /UKB/ukb-0603-5.4T"
+remote_path = "/mnt/data3/ukb-0603-5.4T"
 
 # 筛选条件，例如只复制特定扩展名的文件
-files_to_copy = [f for f in os.listdir(local_path) if f.endswith('.yaml')]
+# files_to_copy = [f for f in os.listdir(local_path) if f.endswith('.yaml')]
 
 # 复制文件到远程服务器
 # for file_name in files_to_copy:

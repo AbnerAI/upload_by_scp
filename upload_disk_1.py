@@ -3,7 +3,7 @@ import fnmatch
 import sys
 
 # 指定要搜索的根目录
-root_path = "G:/qsiPrep/"
+root_path = "G:/qsiPrepadd/"
 # 目标文件的可能后缀
 suffixes = [
     "_space-MNI152NLin2009cAsym_desc-preproc_T1w.nii.gz",
